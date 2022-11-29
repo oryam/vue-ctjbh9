@@ -1,10 +1,6 @@
 <template>
-  <!--div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div-->
   <div id="app">
-    <CollapseForceChart />
+    <ProfileAtomicChart />
   </div>
 </template>
 
@@ -12,13 +8,12 @@
 import HelloWorld from './components/HelloWorld.vue';
 import XYChart from './components/XYChart.vue';
 import CollapseForceChart from './components/CollapseForceChart.vue';
+import ProfileAtomicChart from './components/ProfileAtomicChart.vue';
 
 export default {
   name: 'App',
   components: {
-    //HelloWorld,
-    //XYChart,
-    CollapseForceChart,
+    ProfileAtomicChart,
   },
 };
 </script>

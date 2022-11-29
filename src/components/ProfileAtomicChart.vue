@@ -1,5 +1,5 @@
 <template>
-  <div class="cfchart" ref="chartdiv"></div>
+  <div class="pachart" ref="chartdiv"></div>
 </template>
 
 <script>
@@ -8,7 +8,7 @@ import * as am5hierarchy from '@amcharts/amcharts5/hierarchy';
 import am5themes_Animated from '@amcharts/amcharts5/themes/Animated';
 
 export default {
-  name: 'CollapseForceChart',
+  name: 'ProfileAtomicChart',
   mounted() {
     let root = am5.Root.new(this.$refs.chartdiv);
 
@@ -538,8 +538,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.cfchart {
-  width: 100%;
-  height: 500px;
+.pachart {
+  width: 600px;
+  max-width: 100%;
+  height: 600px;
 }
 </style>
