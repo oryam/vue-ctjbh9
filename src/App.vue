@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <ProfileAtomicChart />
     <ProfileRadarChart />
+    <ProfileAtomicChart />
   </div>
 </template>
 

@@ -1,4 +1,4 @@
-export const data = (data = {
+export const data = {
   value: 0,
   children: [
     {
@@ -467,4 +467,4 @@ export const data = (data = {
       ],
     },
   ],
-});
+};

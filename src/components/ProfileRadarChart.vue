@@ -113,7 +113,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.pachart {
+.prchart {
   width: 600px;
   max-width: 100%;
   height: 600px;
