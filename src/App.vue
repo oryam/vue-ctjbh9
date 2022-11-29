@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <ProfileAtomicChart />
+    <ProfileRadarChart />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-import XYChart from './components/XYChart.vue';
-import CollapseForceChart from './components/CollapseForceChart.vue';
 import ProfileAtomicChart from './components/ProfileAtomicChart.vue';
+import ProfileRadarChart from './components/ProfileRadarChart.vue';
 
 export default {
   name: 'App',
   components: {
     ProfileAtomicChart,
+    ProfileRadarChart,
   },
 };
 </script>
